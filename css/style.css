@@ -11,7 +11,7 @@ p {margin: 0;}
 html, body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 100%;
-	background: #ffffff;
+	background: #f7f7f7;
 }
 body a{
 	transition:0.5s all;
@@ -156,9 +156,13 @@ address span{
 	padding:1.5em 0 0 2em;
 }
 .skill1,.skill2{
-	 float:left;
-	 width:30%;
+	 width:100%;
 }
+
+.skill1 {
+  padding-bottom: 20px;
+}
+
 .skill1 h4,.skill2 h4{
 	color:#333;
 	font-weight:600;
